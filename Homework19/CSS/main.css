@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Alef:wght@400;700&family=Alice&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Itim&family=Lato&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Sen:wght@400..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Roboto Serif", serif;
+}
+
+header {
+    background: url("../ings/Section_Hero.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.nav_info {
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 24px;
+}
+
+.links select {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 24px;
+    outline: none;
+}
+
+.links select option {
+    background-color: black;
+    color: white;
+}
+
+.lgnbtn {
+    width: 124px;
+    height: 44px;
+    border-radius: 35px;
+    border: none;
+    font-size: 600px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.hero_info {
+    width: 600px;
+    color: white;
+    padding-top: 170px;
+    padding-bottom: 300px;
+}
+
+.hero_info .p1 {
+    font-weight: 300;
+    font-size: 55px;
+    letter-spacing: 3px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.hero_info p {
+    line-height: 24px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.hero_info button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    width: 187px;
+    height: 64px;
+    padding: 16px 28px 16px 28px;
+    border-radius: 50px;
+    gap: 16px;
+    border: 1px solid white;
+    font-weight: 600px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.shop {
+    padding: 30px 0px;
+}
+
+.section_title {
+    border-bottom: 1px solid lightgrey;
+    padding: 10px 0px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.search {
+    background-color: #F4F4F4;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.search input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.section_title>img {
+    display: none;
+}
+
+.product {
+    border: 1px solid lightgrey;
+    padding: 30px 15px;
+}
+
+.bts {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.bts button {
+    margin: 0px 8px;
+    padding: 8px 16px;
+    background-color: transparent;
+    border: none;
+}
+
+.bts button:hover {
+    cursor: pointer;
+    background: linear-gradient(#101828, #233250);
+    color: white;
+    border-radius: 6px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.cards img {
+    width: 400px;
+}
+
+.more {
+    text-align: right;
+}
+
+.more a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.menu {
+    display: none;
+}
+
+footer {
+    background-color: #101828;
+}
+
+footer .bir {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bir_info h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+
+.bir .birbtn button {
+    width: 115px;
+    height: 44px;
+    border-radius: 8px;
+    border: none;
+}
+
+.bir .birbtn input {
+    width: 280px;
+    height: 44px;
+}
+
+.ikki {
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+}
+
+.ikkilinks {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.ikkilinks ul {
+    list-style: none;
+    font-weight: 300;
+        font-size: 18px;
+        line-height: 30px;
+}
+
+.ikki_info h3 {
+    color: white;
+}
+
+.ikki_info {
+    width: 350px;
+}
+
+.ikki_info h3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.uch {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.uch h3 {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media(max-width:447px) {
+    .container {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .lgnbtn {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .hero_info {
+        width: 90% !important;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    header {
+        background: url("../ings/hero2.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .hero_info .p1 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .hero_info p {
+        font-size: 14px;
+        line-height: 16.8px;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+    }
+
+    .cards img {
+        width: 95%;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .bts {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bts button {
+        margin: 0px 3px;
+        padding: 4px 8px;
+        background-color: transparent;
+        border: none;
+        font-size: 12px;
+    }
+
+    .title h2 {
+        font-size: 20px;
+    }
+
+    .section_title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .section_title>img {
+        display: block;
+    }
+
+    .more {
+        display: none;
+    }
+
+    .bir {
+        padding-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .bir_info h3 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .bir_info .about {
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 14.3px;
+    }
+
+    .birbtn {
+        padding: 20px 0px;
+        text-align: center;
+    }
+
+    .bir .birbtn button {
+        width: 358px;
+        height: 40px;
+        border-radius: 7px;
+        margin-top: 12px;
+    }
+
+    .bir .birbtn input {
+        width: 358px;
+        height: 41px;
+    }
+
+    .ikki {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .ikkilinks {
+        padding-top: 50px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .ikkilinks ul {
+        width: 180px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .uch {
+        padding-left: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .uch h3 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 15px;
+    }
+}
